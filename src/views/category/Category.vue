@@ -1041,10 +1041,10 @@
         //发送网络请求，请求更多页数据
 
         //等数据传送过来，并且将新的数据展示出来
-        setTimeout(() => {
+        // setTimeout(() => {
           //finishPullUp ，完成上拉
           this.scroll.finishPullUp()
-        },2000);
+        // },2000);
       })
     }
   }
